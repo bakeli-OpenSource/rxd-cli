@@ -88,7 +88,7 @@ async function promptNoneGivenArgs(options) {
     choices: templates.map((template) => template.langue),
   });
   const technoChoiceAnswers = await inquirer.prompt(technoChoicePrompt)
-  console.log({ technoChoiceAnswers });
+  // console.log({ technoChoiceAnswers });
   projectToChoosePrompt.push({
     type: "list",
     name: "project",
