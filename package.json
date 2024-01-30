@@ -1,0 +1,36 @@
+{
+  "name": "@red-team/boilerplate",
+  "version": "1.0.0",
+  "description": "A CLI to bootstrap my new projects",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "@red-team/boilerplate": "bin/rxd-create-app.js",
+    "rxd-create-project": "bin/rxd-create-app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index"
+  },
+  "keywords": [
+    "cli",
+    "rxd-create-project"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "chalk": "^4.1.2",
+    "cli-welcome": "^2.2.2",
+    "esm": "^3.2.25",
+    "execa": "^5.1.1",
+    "gitignore": "^0.7.0",
+    "inquirer": "^8.2.5",
+    "listr": "^0.14.3",
+    "lodash": "^4.17.21",
+    "ncp": "^2.0.0",
+    "node-emoji": "^2.1.3",
+    "pkg-install": "^1.0.0",
+    "spdx-license-list": "^6.6.0"
+  }
+}
