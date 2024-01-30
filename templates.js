@@ -3,7 +3,7 @@ export const templates = [
     langue: "REACT JS",
     repos: [
       {
-        url: "https://gitlab.com/bakelipro/red-team-code-base.git",
+        url: "https://github.com/bakeli-OpenSource/rxd-code-base.git",
         name: "react-with-rtkquery"
       }
     ]
