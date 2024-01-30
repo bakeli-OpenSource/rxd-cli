@@ -119,7 +119,7 @@ export async function createProject(options) {
    */
   cliWelcome({
     title: "rxd-create-app",
-    tagLine: "RED Team by Volkeno",
+    tagLine: "RED Team by Bakeli",
     bgColor: `#FADC00`,
     color: `#000000`,
     bold: true,
@@ -136,7 +136,7 @@ export async function createProject(options) {
       chalk.white.bold(options.projectName)
     );
     // console.log(chalk.white.bold("  - npm run vendor"));
-    console.log(chalk.white.bold("  - npm start \n"));
+    console.log(chalk.white.bold("  - npm install \n"));
   } else {
     console.log(chalk.white.bold("- Run"));
     console.log(
