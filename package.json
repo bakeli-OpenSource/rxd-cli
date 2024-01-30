@@ -1,11 +1,11 @@
 {
-  "name": "@red-team/boilerplate",
+  "name": "rxd-cli",
   "version": "1.0.0",
   "description": "A CLI to bootstrap my new projects",
   "main": "src/index.js",
   "type": "module",
   "bin": {
-    "@red-team/boilerplate": "bin/rxd-create-app.js",
+    "rxd-cli": "bin/rxd-create-app.js",
     "rxd-create-project": "bin/rxd-create-app.js"
   },
   "scripts": {

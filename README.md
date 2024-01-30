@@ -5,7 +5,7 @@ The `BOILERPLATE` will help you to generate a react project with existing files 
 ## Usage
 
 ```bash
-  npm i @red-team/boilerplate -g
+  npm i rxd-cli -g
 ```
 
 #### Create a project
