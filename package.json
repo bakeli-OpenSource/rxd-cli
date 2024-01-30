@@ -1,12 +1,12 @@
 {
   "name": "rxd-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI to bootstrap new React projects",
   "main": "src/index.js",
   "type": "module",
   "bin": {
     "rxd-cli": "bin/rxd-create-app.js",
-    "rxd-create-project": "bin/rxd-create-app.js"
+    "rxd-create-app": "bin/rxd-create-app.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,7 +14,7 @@
   },
   "keywords": [
     "cli",
-    "rxd-create-project"
+    "rxd-create-app"
   ],
   "author": "",
   "license": "ISC",
