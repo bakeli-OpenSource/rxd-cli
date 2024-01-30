@@ -118,7 +118,7 @@ export async function createProject(options) {
    * Success information
    */
   cliWelcome({
-    title: "rxd-create-project",
+    title: "rxd-create-app",
     tagLine: "RED Team by Volkeno",
     bgColor: `#FADC00`,
     color: `#000000`,
